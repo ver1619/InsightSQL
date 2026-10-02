@@ -1,0 +1,34 @@
+# Local secrets and environment-specific settings.
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python environments, bytecode, and test/tool caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local application data and SQLite files/sidecars.
+data/
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite-journal
+
+# Python build artifacts.
+build/
+dist/
+*.egg-info/

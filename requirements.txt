@@ -1,0 +1,5 @@
+openai>=1.68,<3
+pandas>=2.2,<4
+pytest>=8,<9
+sqlglot>=26,<29
+streamlit>=1.42,<2
